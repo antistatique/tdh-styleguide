@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>Layout - Colors</title>
+    <title>TDH Justice Juvenile - Basic Page</title>
 
     <!-- Styleguide CSS -->
     <link rel="stylesheet" href="./theme-build/css/vendors.css">
@@ -488,7 +488,7 @@
             
               
               
-                <li><a href="tdh_justice_juvenile_-_basic_page.html">Basic Page</a></li>
+                <li><a class="active" href="tdh_justice_juvenile_-_basic_page.html">Basic Page</a></li>
               
             
           
@@ -613,7 +613,7 @@
             
               
               
-                <li><a class="active" href="layout_-_colors.html">Colors</a></li>
+                <li><a href="layout_-_colors.html">Colors</a></li>
               
             
           
@@ -797,7 +797,7 @@
 
     <header class="cortana-header sb-slide">
       
-        <h1>Colors</h1>
+        <h1>Basic Page</h1>
       
       <div id="open-left" class="cortana-menu-btn">
         <span></span>
@@ -817,11 +817,15 @@
           <ul bs-scrollspy-list data-offset="-30">
             
               
-                <li><a href="#a-colors">Colors</a></li>
+                <li><a href="#a-basic-page">Basic Page</a></li>
               
             
               
-                <li><a href="#b-bootfalt-colors">Bootflat colors</a></li>
+                <li><a href="#b-basic-page-full-display">Full Display</a></li>
+              
+            
+              
+                <li><a href="#c-basic-page-teaser-display">Teaser Display</a></li>
               
             
           </ul>
@@ -832,145 +836,96 @@
 
 
 
-<h1 id="a-colors">Colors</h1>
+<h1 id="a-basic-page">Basic Page</h1>
 
-<div class="container-fluid">
-  <div class="row">
+<table><thead>
+<tr>
+<th>Field</th>
+<th>Type</th>
+<th style="text-align: center">Full</th>
+<th style="text-align: center">Teaser</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>Title</td>
+<td>Text</td>
+<td style="text-align: center">✘</td>
+<td style="text-align: center">✘</td>
+</tr>
+<tr>
+<td>Body + Excerpt</td>
+<td>Body</td>
+<td style="text-align: center">✘</td>
+<td style="text-align: center">✘</td>
+</tr>
+<tr>
+<td>Featured</td>
+<td>Boolean</td>
+<td style="text-align: center">✘</td>
+<td style="text-align: center">✘</td>
+</tr>
+<tr>
+<td>Banner Image</td>
+<td>Image</td>
+<td style="text-align: center">✘</td>
+<td style="text-align: center">✘</td>
+</tr>
+<tr>
+<td>Event Day</td>
+<td>Taxonomy</td>
+<td style="text-align: center">✘</td>
+<td style="text-align: center">✘</td>
+</tr>
+</tbody></table>
 
-    <div class="col-sm-3 col-xs-6">
-      <div style="background:#222;"><br><br><br><br><br></div>
-      <pre class="text-center">$gray-darker</pre>
-    </div>
-
-    <div class="col-sm-3 col-xs-6">
-      <div style="background:#333;"><br><br><br><br><br></div>
-      <pre class="text-center">$gray-dark</pre>
-    </div>
-
-    <div class="col-sm-3 col-xs-6">
-      <div style="background:#555;"><br><br><br><br><br></div>
-      <pre class="text-center">$gray</pre>
-    </div>
-
-    <div class="col-sm-3 col-xs-6">
-      <div style="background:#999;"><br><br><br><br><br></div>
-      <pre class="text-center">$gray-light</pre>
-    </div>
-
-    <div class="col-sm-3 col-xs-6">
-      <div style="background:#eee;"><br><br><br><br><br></div>
-      <pre class="text-center">$gray-lighter</pre>
-    </div>
-
-    <div class="col-sm-3 col-xs-6">
-      <div style="background:#428bca;"><br><br><br><br><br></div>
-      <pre class="text-center">$brand-primary</pre>
-    </div>
-
-    <div class="col-sm-3 col-xs-6">
-      <div style="background:#5cb85c;"><br><br><br><br><br></div>
-      <pre class="text-center">$brand-success</pre>
-    </div>
-
-    <div class="col-sm-3 col-xs-6">
-      <div style="background:#5bc0de;"><br><br><br><br><br></div>
-      <pre class="text-center">$brand-info</pre>
-    </div>
-
-    <div class="col-sm-3 col-xs-6">
-      <div style="background:#f0ad4e;"><br><br><br><br><br></div>
-      <pre class="text-center">$brand-warning</pre>
-    </div>
-
-    <div class="col-sm-3 col-xs-6">
-      <div style="background:#d9534f;"><br><br><br><br><br></div>
-      <pre class="text-center">$brand-danger</pre>
-    </div>
-
+<h1 id="b-basic-page-full-display">Full Display</h1>
+</div><div class="codeExample"><div class="exampleOutput"><div class="row">
+  <div class="col-md-10 col-md-offset-1">
+    <img class="img-responsive" src="http://lorempixel.com/1600/600/cats" alt="Some cats image">
+    <h1>Title of the page</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio tempora, quaerat! Corporis itaque ipsam doloremque repellendus obcaecati optio in cupiditate, excepturi rerum nihil suscipit, ad officia accusamus quibusdam quos nobis? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe nostrum ullam similique quasi quis eveniet tenetur aliquam aut, omnis! Eaque animi dignissimos minima reprehenderit delectus sapiente quisquam ratione laboriosam iusto.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio tempora, quaerat! Corporis itaque ipsam doloremque repellendus obcaecati optio in cupiditate, excepturi rerum nihil suscipit, ad officia accusamus quibusdam quos nobis? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe nostrum ullam similique quasi quis eveniet tenetur aliquam aut, omnis! Eaque animi dignissimos minima reprehenderit delectus sapiente quisquam ratione laboriosam iusto. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum mollitia molestiae consequatur. Veritatis beatae animi consequatur, quis, distinctio explicabo et, molestias corporis rem obcaecati excepturi! Odit distinctio consequuntur, laudantium temporibus.</p>
+    <hr>
+    <p class="text-danger">[event days list teaser display]</p>
   </div>
 </div>
-
-<h1 id="b-bootfalt-colors">Bootflat colors</h1>
-
-<p>All the colors are in <code>-light</code> or <code>-dark</code> variant.</p>
-
-<div class="container-fluid">
-  <div class="row">
-
-    <div class="col-sm-3 col-xs-6">
-      <div style="background:#5D9CEC;width:50%;float:left;"><br><br><br><br><br></div>
-      <div style="background:#4A89DC;width:50%;float:left;"><br><br><br><br><br></div>
-      <pre class="text-center">$bluejeans</pre>
-    </div>
-
-    <div class="col-sm-3 col-xs-6">
-      <div style="background:#4FC1E9;width:50%;float:left;"><br><br><br><br><br></div>
-      <div style="background:#3BAFDA;width:50%;float:left;"><br><br><br><br><br></div>
-      <pre class="text-center">$aqua</pre>
-    </div>
-
-    <div class="col-sm-3 col-xs-6">
-      <div style="background:#48CFAD;width:50%;float:left;"><br><br><br><br><br></div>
-      <div style="background:#37BC9B;width:50%;float:left;"><br><br><br><br><br></div>
-      <pre class="text-center">$mint</pre>
-    </div>
-
-    <div class="col-sm-3 col-xs-6">
-      <div style="background:#A0D468;width:50%;float:left;"><br><br><br><br><br></div>
-      <div style="background:#8CC152;width:50%;float:left;"><br><br><br><br><br></div>
-      <pre class="text-center">$grass</pre>
-    </div>
-
-    <div class="col-sm-3 col-xs-6">
-      <div style="background:#FFCE54;width:50%;float:left;"><br><br><br><br><br></div>
-      <div style="background:#F6BB42;width:50%;float:left;"><br><br><br><br><br></div>
-      <pre class="text-center">$sunflower</pre>
-    </div>
-
-    <div class="col-sm-3 col-xs-6">
-      <div style="background:#FC6E51;width:50%;float:left;"><br><br><br><br><br></div>
-      <div style="background:#E9573F;width:50%;float:left;"><br><br><br><br><br></div>
-      <pre class="text-center">$bittersweet</pre>
-    </div>
-
-    <div class="col-sm-3 col-xs-6">
-      <div style="background:#ED5565;width:50%;float:left;"><br><br><br><br><br></div>
-      <div style="background:#DA4453;width:50%;float:left;"><br><br><br><br><br></div>
-      <pre class="text-center">$grapefruit</pre>
-    </div>
-
-    <div class="col-sm-3 col-xs-6">
-      <div style="background:#AC92EC;width:50%;float:left;"><br><br><br><br><br></div>
-      <div style="background:#967ADC;width:50%;float:left;"><br><br><br><br><br></div>
-      <pre class="text-center">$lavender</pre>
-    </div>
-
-    <div class="col-sm-3 col-xs-6">
-      <div style="background:#EC87C0;width:50%;float:left;"><br><br><br><br><br></div>
-      <div style="background:#D770AD;width:50%;float:left;"><br><br><br><br><br></div>
-      <pre class="text-center">$pinkrose</pre>
-    </div>
-
-    <div class="col-sm-3 col-xs-6">
-      <div style="background:#F5F7FA;width:50%;float:left;"><br><br><br><br><br></div>
-      <div style="background:#E6E9ED;width:50%;float:left;"><br><br><br><br><br></div>
-      <pre class="text-center">$lightgray</pre>
-    </div>
-
-    <div class="col-sm-3 col-xs-6">
-      <div style="background:#CCD1D9;width:50%;float:left;"><br><br><br><br><br></div>
-      <div style="background:#AAB2BD;width:50%;float:left;"><br><br><br><br><br></div>
-      <pre class="text-center">$mediumgray</pre>
-    </div>
-
-    <div class="col-sm-3 col-xs-6">
-      <div style="background:#656D78;width:50%;float:left;"><br><br><br><br><br></div>
-      <div style="background:#434A54;width:50%;float:left;"><br><br><br><br><br></div>
-      <pre class="text-center">$darkgray</pre>
+</div><div class="codeBlock"><div class="highlight"><pre><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"row"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-md-10 col-md-offset-1"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;img</span> <span class="na">class=</span><span class="s">"img-responsive"</span> <span class="na">src=</span><span class="s">"http://lorempixel.com/1600/600/cats"</span> <span class="na">alt=</span><span class="s">"Some cats image"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;h1&gt;</span>Title of the page<span class="nt">&lt;/h1&gt;</span>
+    <span class="nt">&lt;p&gt;</span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio tempora, quaerat! Corporis itaque ipsam doloremque repellendus obcaecati optio in cupiditate, excepturi rerum nihil suscipit, ad officia accusamus quibusdam quos nobis? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe nostrum ullam similique quasi quis eveniet tenetur aliquam aut, omnis! Eaque animi dignissimos minima reprehenderit delectus sapiente quisquam ratione laboriosam iusto.<span class="nt">&lt;/p&gt;</span>
+    <span class="nt">&lt;p&gt;</span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio tempora, quaerat! Corporis itaque ipsam doloremque repellendus obcaecati optio in cupiditate, excepturi rerum nihil suscipit, ad officia accusamus quibusdam quos nobis? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe nostrum ullam similique quasi quis eveniet tenetur aliquam aut, omnis! Eaque animi dignissimos minima reprehenderit delectus sapiente quisquam ratione laboriosam iusto. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum mollitia molestiae consequatur. Veritatis beatae animi consequatur, quis, distinctio explicabo et, molestias corporis rem obcaecati excepturi! Odit distinctio consequuntur, laudantium temporibus.<span class="nt">&lt;/p&gt;</span>
+    <span class="nt">&lt;hr&gt;</span>
+    <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"text-danger"</span><span class="nt">&gt;</span>[event days list teaser display]<span class="nt">&lt;/p&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</pre></div></div></div><div class="cortana-content">
+<h1 id="c-basic-page-teaser-display">Teaser Display</h1>
+</div><div class="codeExample"><div class="exampleOutput"><div class="row">
+  <div class="col-sm-6">
+    <div class="thumbnail">
+      <img src="http://lorempixel.com/800/200/cats" alt="Some cats image">
+      <div class="caption clearfix">
+        <h3>Page title</h3>
+        <p>Excerpt. Lorem ipsum dolor sit amet.</p>
+        <a href="#" class="btn btn-primary pull-right" role="button">Read more</a>
+      </div>
     </div>
   </div>
 </div>
-
+</div><div class="codeBlock"><div class="highlight"><pre><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"row"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-sm-6"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"thumbnail"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"http://lorempixel.com/800/200/cats"</span> <span class="na">alt=</span><span class="s">"Some cats image"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"caption clearfix"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;h3&gt;</span>Page title<span class="nt">&lt;/h3&gt;</span>
+        <span class="nt">&lt;p&gt;</span>Excerpt. Lorem ipsum dolor sit amet.<span class="nt">&lt;/p&gt;</span>
+        <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"#"</span> <span class="na">class=</span><span class="s">"btn btn-primary pull-right"</span> <span class="na">role=</span><span class="s">"button"</span><span class="nt">&gt;</span>Read more<span class="nt">&lt;/a&gt;</span>
+      <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</pre></div></div></div><div class="cortana-content">
         </div>
       </div>
     </div>

@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>Layout - Colors</title>
+    <title>TDH Justice Juvenile - Speaker</title>
 
     <!-- Styleguide CSS -->
     <link rel="stylesheet" href="./theme-build/css/vendors.css">
@@ -550,7 +550,7 @@
             
               
               
-                <li><a href="tdh_justice_juvenile_-_speaker.html">Speaker</a></li>
+                <li><a class="active" href="tdh_justice_juvenile_-_speaker.html">Speaker</a></li>
               
             
           
@@ -613,7 +613,7 @@
             
               
               
-                <li><a class="active" href="layout_-_colors.html">Colors</a></li>
+                <li><a href="layout_-_colors.html">Colors</a></li>
               
             
           
@@ -797,7 +797,7 @@
 
     <header class="cortana-header sb-slide">
       
-        <h1>Colors</h1>
+        <h1>Speaker</h1>
       
       <div id="open-left" class="cortana-menu-btn">
         <span></span>
@@ -817,11 +817,15 @@
           <ul bs-scrollspy-list data-offset="-30">
             
               
-                <li><a href="#a-colors">Colors</a></li>
+                <li><a href="#a-speaker">Speaker</a></li>
               
             
               
-                <li><a href="#b-bootfalt-colors">Bootflat colors</a></li>
+                <li><a href="#b-teaser-full-display">Full Display</a></li>
+              
+            
+              
+                <li><a href="#c-speaker-teaser-display">Teaser Display</a></li>
               
             
           </ul>
@@ -832,145 +836,168 @@
 
 
 
-<h1 id="a-colors">Colors</h1>
+<h1 id="a-speaker">Speaker</h1>
 
-<div class="container-fluid">
-  <div class="row">
+<table><thead>
+<tr>
+<th>Field</th>
+<th>Type</th>
+<th style="text-align: center">Full</th>
+<th style="text-align: center">Teaser</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>Title</td>
+<td>Text</td>
+<td style="text-align: center">✘</td>
+<td style="text-align: center">✘</td>
+</tr>
+<tr>
+<td>Body + Excerpt</td>
+<td>Body</td>
+<td style="text-align: center">✘</td>
+<td style="text-align: center">✘</td>
+</tr>
+<tr>
+<td>Featured</td>
+<td>Boolean</td>
+<td style="text-align: center">✘</td>
+<td style="text-align: center">✘</td>
+</tr>
+<tr>
+<td>Name</td>
+<td>Text</td>
+<td style="text-align: center">✘</td>
+<td style="text-align: center">✘</td>
+</tr>
+<tr>
+<td>Job Title</td>
+<td>Text</td>
+<td style="text-align: center">✘</td>
+<td style="text-align: center">✘</td>
+</tr>
+<tr>
+<td>Image</td>
+<td>Image</td>
+<td style="text-align: center">✘</td>
+<td style="text-align: center">✘</td>
+</tr>
+<tr>
+<td>Email</td>
+<td>Text</td>
+<td style="text-align: center">✘</td>
+<td style="text-align: center"></td>
+</tr>
+<tr>
+<td>URL</td>
+<td>Text</td>
+<td style="text-align: center">✘</td>
+<td style="text-align: center"></td>
+</tr>
+<tr>
+<td>Language</td>
+<td>Taxonomy (Checkbox)</td>
+<td style="text-align: center">✘</td>
+<td style="text-align: center"></td>
+</tr>
+</tbody></table>
 
-    <div class="col-sm-3 col-xs-6">
-      <div style="background:#222;"><br><br><br><br><br></div>
-      <pre class="text-center">$gray-darker</pre>
+<h1 id="b-teaser-full-display">Full Display</h1>
+</div><div class="codeExample"><div class="exampleOutput"><div class="row">
+  <div class="col-sm-4">
+    <img class="img-responsive" src="http://lorempixel.com/800/800/cats" alt="Some cats image">
+  </div>
+  <div class="col-sm-8">
+    <h1 class="media-heading">Name of the speaker <small></small></h1>
+    <p class="text-muted">Job Title</p>
+    <div class="bio">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam deserunt nisi quae sed tenetur, nostrum similique ad vero? Praesentium amet, commodi ipsum a id explicabo! Amet saepe nisi alias ipsam? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis quibusdam obcaecati quam nam necessitatibus vitae nesciunt repellendus quae. Tenetur ipsa quis incidunt, odio quam accusantium omnis rerum. Nam, iste, officiis!</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam deserunt nisi quae sed tenetur, nostrum similique ad vero? Praesentium amet, commodi ipsum a id explicabo! Amet saepe nisi alias ipsam? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis quibusdam obcaecati quam nam necessitatibus vitae nesciunt repellendus quae. Tenetur ipsa quis incidunt, odio quam accusantium omnis rerum. Nam, iste, officiis! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium explicabo ex reiciendis sequi rerum atque quia inventore eligendi repellat provident, eius aspernatur voluptatibus autem dolor dolorem accusamus, quibusdam, sed quis.</p>
     </div>
 
-    <div class="col-sm-3 col-xs-6">
-      <div style="background:#333;"><br><br><br><br><br></div>
-      <pre class="text-center">$gray-dark</pre>
+    <div class="list-group">
+      <a href="#" class="list-group-item">
+        <h6 class="list-group-item-heading">Email</h6>
+        <p class="list-group-item-text">example@example.com</p>
+      </a>
+      <a href="#" class="list-group-item">
+        <h6 class="list-group-item-heading">Site internet</h6>
+        <p class="list-group-item-text">http://example.com</p>
+      </a>
+      <a href="#" class="list-group-item">
+        <h6 class="list-group-item-heading">LinkedIn Profile</h6>
+        <p class="list-group-item-text">http://linkedin.com/test</p>
+      </a>
     </div>
 
-    <div class="col-sm-3 col-xs-6">
-      <div style="background:#555;"><br><br><br><br><br></div>
-      <pre class="text-center">$gray</pre>
-    </div>
-
-    <div class="col-sm-3 col-xs-6">
-      <div style="background:#999;"><br><br><br><br><br></div>
-      <pre class="text-center">$gray-light</pre>
-    </div>
-
-    <div class="col-sm-3 col-xs-6">
-      <div style="background:#eee;"><br><br><br><br><br></div>
-      <pre class="text-center">$gray-lighter</pre>
-    </div>
-
-    <div class="col-sm-3 col-xs-6">
-      <div style="background:#428bca;"><br><br><br><br><br></div>
-      <pre class="text-center">$brand-primary</pre>
-    </div>
-
-    <div class="col-sm-3 col-xs-6">
-      <div style="background:#5cb85c;"><br><br><br><br><br></div>
-      <pre class="text-center">$brand-success</pre>
-    </div>
-
-    <div class="col-sm-3 col-xs-6">
-      <div style="background:#5bc0de;"><br><br><br><br><br></div>
-      <pre class="text-center">$brand-info</pre>
-    </div>
-
-    <div class="col-sm-3 col-xs-6">
-      <div style="background:#f0ad4e;"><br><br><br><br><br></div>
-      <pre class="text-center">$brand-warning</pre>
-    </div>
-
-    <div class="col-sm-3 col-xs-6">
-      <div style="background:#d9534f;"><br><br><br><br><br></div>
-      <pre class="text-center">$brand-danger</pre>
-    </div>
-
+    <hr>
+    <p class="text-danger">[list of sessions from this speaker]</p>
   </div>
 </div>
+</div><div class="codeBlock"><div class="highlight"><pre><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"row"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-sm-4"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;img</span> <span class="na">class=</span><span class="s">"img-responsive"</span> <span class="na">src=</span><span class="s">"http://lorempixel.com/800/800/cats"</span> <span class="na">alt=</span><span class="s">"Some cats image"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-sm-8"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;h1</span> <span class="na">class=</span><span class="s">"media-heading"</span><span class="nt">&gt;</span>Name of the speaker <span class="nt">&lt;small&gt;&lt;/small&gt;&lt;/h1&gt;</span>
+    <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"text-muted"</span><span class="nt">&gt;</span>Job Title<span class="nt">&lt;/p&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"bio"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;p&gt;</span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam deserunt nisi quae sed tenetur, nostrum similique ad vero? Praesentium amet, commodi ipsum a id explicabo! Amet saepe nisi alias ipsam? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis quibusdam obcaecati quam nam necessitatibus vitae nesciunt repellendus quae. Tenetur ipsa quis incidunt, odio quam accusantium omnis rerum. Nam, iste, officiis!<span class="nt">&lt;/p&gt;</span>
+      <span class="nt">&lt;p&gt;</span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam deserunt nisi quae sed tenetur, nostrum similique ad vero? Praesentium amet, commodi ipsum a id explicabo! Amet saepe nisi alias ipsam? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis quibusdam obcaecati quam nam necessitatibus vitae nesciunt repellendus quae. Tenetur ipsa quis incidunt, odio quam accusantium omnis rerum. Nam, iste, officiis! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium explicabo ex reiciendis sequi rerum atque quia inventore eligendi repellat provident, eius aspernatur voluptatibus autem dolor dolorem accusamus, quibusdam, sed quis.<span class="nt">&lt;/p&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
 
-<h1 id="b-bootfalt-colors">Bootflat colors</h1>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"list-group"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"#"</span> <span class="na">class=</span><span class="s">"list-group-item"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;h6</span> <span class="na">class=</span><span class="s">"list-group-item-heading"</span><span class="nt">&gt;</span>Email<span class="nt">&lt;/h6&gt;</span>
+        <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"list-group-item-text"</span><span class="nt">&gt;</span>example@example.com<span class="nt">&lt;/p&gt;</span>
+      <span class="nt">&lt;/a&gt;</span>
+      <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"#"</span> <span class="na">class=</span><span class="s">"list-group-item"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;h6</span> <span class="na">class=</span><span class="s">"list-group-item-heading"</span><span class="nt">&gt;</span>Site internet<span class="nt">&lt;/h6&gt;</span>
+        <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"list-group-item-text"</span><span class="nt">&gt;</span>http://example.com<span class="nt">&lt;/p&gt;</span>
+      <span class="nt">&lt;/a&gt;</span>
+      <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"#"</span> <span class="na">class=</span><span class="s">"list-group-item"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;h6</span> <span class="na">class=</span><span class="s">"list-group-item-heading"</span><span class="nt">&gt;</span>LinkedIn Profile<span class="nt">&lt;/h6&gt;</span>
+        <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"list-group-item-text"</span><span class="nt">&gt;</span>http://linkedin.com/test<span class="nt">&lt;/p&gt;</span>
+      <span class="nt">&lt;/a&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
 
-<p>All the colors are in <code>-light</code> or <code>-dark</code> variant.</p>
-
-<div class="container-fluid">
-  <div class="row">
-
-    <div class="col-sm-3 col-xs-6">
-      <div style="background:#5D9CEC;width:50%;float:left;"><br><br><br><br><br></div>
-      <div style="background:#4A89DC;width:50%;float:left;"><br><br><br><br><br></div>
-      <pre class="text-center">$bluejeans</pre>
-    </div>
-
-    <div class="col-sm-3 col-xs-6">
-      <div style="background:#4FC1E9;width:50%;float:left;"><br><br><br><br><br></div>
-      <div style="background:#3BAFDA;width:50%;float:left;"><br><br><br><br><br></div>
-      <pre class="text-center">$aqua</pre>
-    </div>
-
-    <div class="col-sm-3 col-xs-6">
-      <div style="background:#48CFAD;width:50%;float:left;"><br><br><br><br><br></div>
-      <div style="background:#37BC9B;width:50%;float:left;"><br><br><br><br><br></div>
-      <pre class="text-center">$mint</pre>
-    </div>
-
-    <div class="col-sm-3 col-xs-6">
-      <div style="background:#A0D468;width:50%;float:left;"><br><br><br><br><br></div>
-      <div style="background:#8CC152;width:50%;float:left;"><br><br><br><br><br></div>
-      <pre class="text-center">$grass</pre>
-    </div>
-
-    <div class="col-sm-3 col-xs-6">
-      <div style="background:#FFCE54;width:50%;float:left;"><br><br><br><br><br></div>
-      <div style="background:#F6BB42;width:50%;float:left;"><br><br><br><br><br></div>
-      <pre class="text-center">$sunflower</pre>
-    </div>
-
-    <div class="col-sm-3 col-xs-6">
-      <div style="background:#FC6E51;width:50%;float:left;"><br><br><br><br><br></div>
-      <div style="background:#E9573F;width:50%;float:left;"><br><br><br><br><br></div>
-      <pre class="text-center">$bittersweet</pre>
-    </div>
-
-    <div class="col-sm-3 col-xs-6">
-      <div style="background:#ED5565;width:50%;float:left;"><br><br><br><br><br></div>
-      <div style="background:#DA4453;width:50%;float:left;"><br><br><br><br><br></div>
-      <pre class="text-center">$grapefruit</pre>
-    </div>
-
-    <div class="col-sm-3 col-xs-6">
-      <div style="background:#AC92EC;width:50%;float:left;"><br><br><br><br><br></div>
-      <div style="background:#967ADC;width:50%;float:left;"><br><br><br><br><br></div>
-      <pre class="text-center">$lavender</pre>
-    </div>
-
-    <div class="col-sm-3 col-xs-6">
-      <div style="background:#EC87C0;width:50%;float:left;"><br><br><br><br><br></div>
-      <div style="background:#D770AD;width:50%;float:left;"><br><br><br><br><br></div>
-      <pre class="text-center">$pinkrose</pre>
-    </div>
-
-    <div class="col-sm-3 col-xs-6">
-      <div style="background:#F5F7FA;width:50%;float:left;"><br><br><br><br><br></div>
-      <div style="background:#E6E9ED;width:50%;float:left;"><br><br><br><br><br></div>
-      <pre class="text-center">$lightgray</pre>
-    </div>
-
-    <div class="col-sm-3 col-xs-6">
-      <div style="background:#CCD1D9;width:50%;float:left;"><br><br><br><br><br></div>
-      <div style="background:#AAB2BD;width:50%;float:left;"><br><br><br><br><br></div>
-      <pre class="text-center">$mediumgray</pre>
-    </div>
-
-    <div class="col-sm-3 col-xs-6">
-      <div style="background:#656D78;width:50%;float:left;"><br><br><br><br><br></div>
-      <div style="background:#434A54;width:50%;float:left;"><br><br><br><br><br></div>
-      <pre class="text-center">$darkgray</pre>
+    <span class="nt">&lt;hr&gt;</span>
+    <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"text-danger"</span><span class="nt">&gt;</span>[list of sessions from this speaker]<span class="nt">&lt;/p&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</pre></div></div></div><div class="cortana-content">
+<h1 id="c-speaker-teaser-display">Teaser Display</h1>
+</div><div class="codeExample"><div class="exampleOutput"><div class="row">
+  <div class="col-sm-4">
+    <div class="thumbnail speaker clearfix">
+      <div class="media">
+        <a class="pull-left" href="#">
+          <img class="media-object" src="http://lorempixel.com/64/64/cats" style="width: 80px; height: 80px;">
+        </a>
+        <div class="media-body">
+          <h4 class="media-heading"><a href="#">John Doe</a></h4>
+          <p class="text-muted">Ingénieur informaticien</p>
+        </div>
+      </div>
     </div>
   </div>
 </div>
-
+</div><div class="codeBlock"><div class="highlight"><pre><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"row"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-sm-4"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"thumbnail speaker clearfix"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"media"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"pull-left"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>
+          <span class="nt">&lt;img</span> <span class="na">class=</span><span class="s">"media-object"</span> <span class="na">src=</span><span class="s">"http://lorempixel.com/64/64/cats"</span> <span class="na">style=</span><span class="s">"width: 80px; height: 80px;"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;/a&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"media-body"</span><span class="nt">&gt;</span>
+          <span class="nt">&lt;h4</span> <span class="na">class=</span><span class="s">"media-heading"</span><span class="nt">&gt;&lt;a</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>John Doe<span class="nt">&lt;/a&gt;&lt;/h4&gt;</span>
+          <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"text-muted"</span><span class="nt">&gt;</span>Ingénieur informaticien<span class="nt">&lt;/p&gt;</span>
+        <span class="nt">&lt;/div&gt;</span>
+      <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</pre></div></div></div><div class="cortana-content">
         </div>
       </div>
     </div>
