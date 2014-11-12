@@ -10,14 +10,14 @@ category: TDH Justice Juvenile - Session
 | Title | Text | ✘ | ✘ |
 | Body + Excerpt | Body | ✘ | ✘ |
 | Featured | Boolean | ✘ | ✘ |
-| Event Name | Text | ✘ | ✘ |
+| Session Name | Text | ✘ | ✘ |
 | Image | Image | ✘ | ✘ |
 | Session Type | Taxonomy | ✘ | ✘ |
 | Main Language | Taxonomy | ✘ | ✘ |
 | Languages | Taxonomy (multiple) | ✘ | ✘ |
 | Resources | Field Collection (multiple) | ✘ | |
 | Youtube | URL (Youtube module?) | ✘ | |
-| Event Day | Taxonomy | ✘ | ✘ |
+| Session Day | Taxonomy | ✘ | ✘ |
 | Hours | Date | ✘ | ✘ |
 | Speaker | Entity | ✘ | ✘ |
 
@@ -60,7 +60,32 @@ category: TDH Justice Juvenile - Session
 ---
 
 ```html_example
-Teaser
+<div class="row">
+  <div class="col-sm-6">
+    <div class="thumbnail">
+      <img src="http://lorempixel.com/800/200/cats" alt="Some cats image">
+      <div class="caption clearfix">
+        <h4>Discussion sur l'amélioration des lois et procédures en justice juvénile</h4>
+        <p><strong>14:00 - 16:00</strong> <span class="text-muted bullet">Table ronde d'experts <span class="bullet"><strong class="text-success">FR</strong> ES EN</span></span></p>
+        <p>Excerpt. Lorem ipsum dolor sit amet.</p>
+        <small class="pull-left"><em>with <a href="#">Oddy Osmani</a></em></small>
+        <a href="#" class="btn btn-primary pull-right" role="button">Read more</a>
+      </div>
+    </div>
+  </div>
+</div>
 ```
 
 */
+
+.bullet {
+  &:before {
+      content: '• ';
+    }
+}
+
+.thumbnail {
+  h4 {
+    margin-top: 2px;
+  }
+}
