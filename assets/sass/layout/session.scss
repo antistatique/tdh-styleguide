@@ -47,10 +47,85 @@ category: TDH Justice Juvenile - Session
 ---
 
 ```html_example
-Full
+<div class="row">
+  <div class="col-md-3">
+    <p class="text-danger">[speaker teaser display]</p>
+  </div>
+  <article class="col-md-9 session">
+    <div>
+      <img class="img-responsive" src="http://lorempixel.com/800/200/cats" alt="Some cats image">
+    </div>
+    <div class="content">
+      <h1>Discussion sur l'amélioration des lois et procédures en justice juvénile</h1>
+
+      <div class="meta">
+        <p><small><em>with <a href="#">Oddy Osmani</a></em></small></p>
+        <p><strong>26 janvier 2015 14:00 - 16:00</strong> <span class="text-muted bullet">Table ronde d'experts <span class="bullet"><strong class="text-success">FR</strong> ES EN</span></span></p>
+      </div>
+
+      <p>Body. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti aliquid obcaecati at unde, possimus cumque eaque omnis delectus exercitationem. Adipisci voluptatem perferendis magni minus eaque facere modi ipsa quis iure. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum fuga necessitatibus, pariatur, eos ipsa suscipit vitae omnis reiciendis, soluta, cumque porro assumenda? Quaerat magnam, vel inventore molestias, voluptate saepe veritatis.</p>
+      <p>Body. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti aliquid obcaecati at unde, possimus cumque eaque omnis delectus exercitationem. Adipisci voluptatem perferendis magni minus eaque facere modi ipsa quis iure. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum fuga necessitatibus, pariatur, eos ipsa suscipit vitae omnis reiciendis, soluta, cumque porro assumenda? Quaerat magnam, vel inventore molestias, voluptate saepe veritatis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus reprehenderit veritatis debitis! Aliquid nostrum quam eum possimus, quod, dolore sint omnis commodi ullam repellat nesciunt, non iusto nam nisi ipsum.</p>
+      <div class="text-center">
+        <iframe width="420" height="315" src="//www.youtube.com/embed/O2ulyJuvU3Q" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </div>
+    <hr>
+    <div class="resources">
+      <h2>Resources</h2>
+      <ul class="media-list">
+        <li class="media">
+          <!-- Ajouter des pictos selon le type de fichier? -->
+          <span class="pull-left media-object glyphicon glyphicon-file"></span>
+          <div class="media-body">
+            <h4 class="media-heading">Media heading with a title a little longer <small class="text-success">EN</small></h4>
+            <p><a href="#" class="btn btn-xs btn-primary">Download</a></p>
+          </div>
+        </li>
+        <li class="media">
+          <span class="pull-left media-object glyphicon glyphicon-film"></span>
+          <div class="media-body">
+            <h4 class="media-heading">Media heading <small class="text-success">EN</small></h4>
+            <p><a href="#" class="btn btn-xs btn-primary">Download</a></p>
+          </div>
+        </li>
+        <li class="media">
+          <span class="pull-left media-object glyphicon glyphicon-picture"></span>
+          <div class="media-body">
+            <h4 class="media-heading">Media heading <small class="text-success">EN</small></h4>
+            <p><a href="#" class="btn btn-xs btn-primary">Download</a></p>
+          </div>
+        </li>
+        <li class="media">
+          <span class="pull-left media-object glyphicon glyphicon-bookmark"></span>
+          <div class="media-body">
+            <h4 class="media-heading">Media heading with a title a little longer <small class="text-success">EN</small></h4>
+            <p><a href="#" class="btn btn-xs btn-primary">Download</a></p>
+          </div>
+        </li>
+      </ul>
+  </article>
+</div>
 ```
 
 */
+
+.resources {
+  h2 {
+    margin-bottom: 15px;
+  }
+  .media {
+    &:first-child {
+      margin-top: 15px;
+    }
+    .glyphicon {
+      font-size: 45px;
+    }
+  }
+}
+
+iframe {
+  max-width: 100%;
+}
 
 /*doc
 ---
