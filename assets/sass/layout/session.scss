@@ -11,11 +11,26 @@ category: TDH Justice Juvenile - Session
 | Body + Excerpt | Body | ✘ | ✘ |
 | Featured | Boolean | ✘ | ✘ |
 | Event Name | Text | ✘ | ✘ |
+| Image | Image | ✘ | ✘ |
 | Session Type | Taxonomy | ✘ | ✘ |
-| Banner Image | Image | ✘ | ✘ |
+| Main Language | Taxonomy | ✘ | ✘ |
+| Languages | Taxonomy (multiple) | ✘ | ✘ |
+| Resources | Field Collection (multiple) | ✘ | |
+| Youtube | URL (Youtube module?) | ✘ | |
 | Event Day | Taxonomy | ✘ | ✘ |
+| Hours | Date | ✘ | ✘ |
+| Speaker | Entity | ✘ | ✘ |
+
+**Field Collection:** ***Resources***
+
+| Field | Type |
+|-------|------|
+| Title | Text |
+| Type | List (Radio) |
+| Language | List (Radio) |
 
 Session types:
+
  - Atelier
  - Présentation
  - Discussion
