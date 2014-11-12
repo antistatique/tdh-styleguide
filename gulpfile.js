@@ -79,9 +79,10 @@ gulp.task('vendors', function() {
  * With error reporting on compiling (so that there's no crash)
  */
 gulp.task('styles', function() {
-  if (argv.production) { console.log('Processing styles for production env.' ); }
+  if (argv.production) { console.log('[styles] Processing styles for production env.' ); }
+  else { console.log('[styles] Processing styles for dev env. No minifying here, for sourcemaps!') }
   return gulp.src('assets/sass/tdh.scss')
-    .pipe($.rubySass())
+    .pipe($.rubySass({style: 'compact'}))
       .on('error', $.notify.onError(function (error) {
          console.log(error.message);
          if (!argv.production) {
@@ -89,7 +90,7 @@ gulp.task('styles', function() {
          }
       }))
     .pipe($.autoprefixer('last 2 version', 'safari 5', 'ie 8', 'ie 9', 'ff 27', 'opera 12.1'))
-    .pipe($.minifyCss())
+    .pipe($.if(argv.production, $.minifyCss()))
     .pipe(gulp.dest('build/css'));
 });
 
