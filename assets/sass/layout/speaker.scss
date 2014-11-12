@@ -1,0 +1,47 @@
+/*doc
+---
+title: Speaker
+name: a-session
+category: TDH Justice Juvénile - Speaker
+---
+
+| Field | Type | Full | Teaser |
+|-------|------|:----:|:------:|
+| Title | Text | ✘ | ✘ |
+| Body + Excerpt | Body | ✘ | ✘ |
+| Featured | Boolean | ✘ | ✘ |
+
+Speaker types:
+ - Atelier
+ - Présentation
+ - Discussion
+ - Séance plénière
+ - Autres (Break, Lunch, ...)
+
+*/
+
+/*doc
+---
+title: Full Display
+name: b-full-display
+category: TDH Justice Juvénile - Speaker
+---
+
+```html_example
+Full
+```
+
+*/
+
+/*doc
+---
+title: Featured Display
+name: c-featured-display
+category: TDH Justice Juvénile - Speaker
+---
+
+```html_example
+Featured
+```
+
+*/

@@ -1,0 +1,51 @@
+/*doc
+---
+title: Session
+name: a-session
+category: TDH Justice Juvénile - Session
+---
+
+| Field | Type | Full | Teaser |
+|-------|------|:----:|:------:|
+| Title | Text | ✘ | ✘ |
+| Body + Excerpt | Body | ✘ | ✘ |
+| Featured | Boolean | ✘ | ✘ |
+| Event Name | Text | ✘ | ✘ |
+| Session Type | Taxonomy | ✘ | ✘ |
+| Banner Image | Image | ✘ | ✘ |
+| Event Day | Taxonomy | ✘ | ✘ |
+
+Session types:
+ - Atelier
+ - Présentation
+ - Discussion
+ - Séance plénière
+ - Autres (Break, Lunch, ...)
+
+*/
+
+/*doc
+---
+title: Full Display
+name: b-full-display
+category: TDH Justice Juvénile - Session
+---
+
+```html_example
+Full
+```
+
+*/
+
+/*doc
+---
+title: Featured Display
+name: c-featured-display
+category: TDH Justice Juvénile - Session
+---
+
+```html_example
+Featured
+```
+
+*/
