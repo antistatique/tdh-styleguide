@@ -36,7 +36,18 @@ category: TDH Justice Juvenile - Basic Page
 ---
 
 ```html_example
-Teaser
+<div class="row">
+  <div class="col-sm-6">
+    <div class="thumbnail">
+      <img src="http://lorempixel.com/800/200/cats" alt="Some cats image">
+      <div class="caption clearfix">
+        <h3>Page title</h3>
+        <p>Excerpt. Lorem ipsum dolor sit amet.</p>
+        <a href="#" class="btn btn-primary pull-right" role="button">Read more</a>
+      </div>
+    </div>
+  </div>
+</div>
 ```
 
 */
