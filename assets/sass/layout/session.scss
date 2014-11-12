@@ -53,7 +53,7 @@ category: TDH Justice Juvenile - Session
   </div>
   <article class="col-md-9 session">
     <div>
-      <img class="img-responsive" src="http://lorempixel.com/800/200/cats" alt="Some cats image">
+      <img class="img-responsive" src="http://lorempixel.com/600/400/cats" alt="Some cats image">
     </div>
     <div class="content">
       <h1>Discussion sur l'amélioration des lois et procédures en justice juvénile</h1>
@@ -144,7 +144,7 @@ category: TDH Justice Juvenile - Session
 <div class="row">
   <div class="col-sm-4">
     <div class="thumbnail session">
-      <img src="http://lorempixel.com/800/200/cats" alt="Some cats image">
+      <img src="http://lorempixel.com/600/400/cats" alt="Some cats image">
       <div class="caption clearfix">
         <h4>Discussion sur l'amélioration des lois et procédures en justice juvénile</h4>
         <p><strong>14:00 - 16:00</strong> <span class="text-muted bullet">Table ronde d'experts <span class="bullet"><strong class="text-success">FR</strong> ES EN</span></span></p>
@@ -156,7 +156,7 @@ category: TDH Justice Juvenile - Session
   </div>
   <div class="col-sm-4">
     <div class="thumbnail session">
-      <img src="http://lorempixel.com/800/200/cats" alt="Some cats image">
+      <img src="http://lorempixel.com/600/400/cats" alt="Some cats image">
       <div class="caption clearfix">
         <h4>Discussion sur l'amélioration des lois et procédures en justice juvénile</h4>
         <p><strong>14:00 - 16:00</strong> <span class="text-muted bullet">Table ronde d'experts <span class="bullet"><strong class="text-success">FR</strong> ES EN</span></span></p>
@@ -168,7 +168,7 @@ category: TDH Justice Juvenile - Session
   </div>
   <div class="col-sm-4">
     <div class="thumbnail session">
-      <img src="http://lorempixel.com/800/200/cats" alt="Some cats image">
+      <img src="http://lorempixel.com/600/400/cats" alt="Some cats image">
       <div class="caption clearfix">
         <h4>Discussion sur l'amélioration des lois et procédures en justice juvénile</h4>
         <p><strong>14:00 - 16:00</strong> <span class="text-muted bullet">Table ronde d'experts <span class="bullet"><strong class="text-success">FR</strong> ES EN</span></span></p>
@@ -189,7 +189,9 @@ category: TDH Justice Juvenile - Session
       content: '• ';
     }
 }
-
+.caption{
+  margin-top: 12px;
+}
 .thumbnail {
   h4 {
     margin-top: 2px;
