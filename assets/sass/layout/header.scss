@@ -4,7 +4,15 @@ title: Header
 name: a-header
 category: Header
 ---
+
+```html_example
+<div class="border-top-tdh">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum velit impedit qui quisquam tempore eum sapiente quis corrupti nihil omnis cumque nesciunt quidem, repellendus atque iste ipsa nisi fuga ut?
+</div>
+```
+
 */
-body{
-  background:transparent url('img/header-border-orange.png') center top repeat-x;
+body, .border-top-tdh{
+  background:transparent url('../img/header-border-orange.png') center top repeat-x;
+  padding-top:30px;
 }
