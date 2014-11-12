@@ -23,7 +23,16 @@ category: TDH Justice Juvenile - Basic Page
 ---
 
 ```html_example
-Full
+<div class="row">
+  <div class="col-md-12">
+    <img class="img-responsive" src="http://lorempixel.com/1600/600/cats" alt="Some cats image">
+    <h1>Title of the page</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio tempora, quaerat! Corporis itaque ipsam doloremque repellendus obcaecati optio in cupiditate, excepturi rerum nihil suscipit, ad officia accusamus quibusdam quos nobis? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe nostrum ullam similique quasi quis eveniet tenetur aliquam aut, omnis! Eaque animi dignissimos minima reprehenderit delectus sapiente quisquam ratione laboriosam iusto.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio tempora, quaerat! Corporis itaque ipsam doloremque repellendus obcaecati optio in cupiditate, excepturi rerum nihil suscipit, ad officia accusamus quibusdam quos nobis? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe nostrum ullam similique quasi quis eveniet tenetur aliquam aut, omnis! Eaque animi dignissimos minima reprehenderit delectus sapiente quisquam ratione laboriosam iusto. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum mollitia molestiae consequatur. Veritatis beatae animi consequatur, quis, distinctio explicabo et, molestias corporis rem obcaecati excepturi! Odit distinctio consequuntur, laudantium temporibus.</p>
+    <hr>
+    <p class="text-danger">[event days list teaser display]</p>
+  </div>
+</div>
 ```
 
 */
