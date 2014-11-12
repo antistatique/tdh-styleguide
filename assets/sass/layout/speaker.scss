@@ -11,6 +11,7 @@ category: TDH Justice Juvenile - Speaker
 | Body + Excerpt | Body | ✘ | ✘ |
 | Featured | Boolean | ✘ | ✘ |
 | Name | Text | ✘ | ✘ |
+| Job Title | Text | ✘ | ✘ |
 | Image | Image | ✘ | ✘ |
 | Email | Text | ✘ | |
 | URL | Text | ✘ | |
@@ -26,7 +27,27 @@ category: TDH Justice Juvenile - Speaker
 ---
 
 ```html_example
-Full
+<div class="row">
+  <div class="col-sm-4">
+    <img class="img-responsive" src="http://lorempixel.com/800/800/cats" alt="Some cats image">
+  </div>
+  <div class="col-sm-8">
+    <h1 class="media-heading">Name of the speaker <small></small></h1>
+    <p class="text-muted">Job Title</p>
+    <div class="bio">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam deserunt nisi quae sed tenetur, nostrum similique ad vero? Praesentium amet, commodi ipsum a id explicabo! Amet saepe nisi alias ipsam? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis quibusdam obcaecati quam nam necessitatibus vitae nesciunt repellendus quae. Tenetur ipsa quis incidunt, odio quam accusantium omnis rerum. Nam, iste, officiis!</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam deserunt nisi quae sed tenetur, nostrum similique ad vero? Praesentium amet, commodi ipsum a id explicabo! Amet saepe nisi alias ipsam? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis quibusdam obcaecati quam nam necessitatibus vitae nesciunt repellendus quae. Tenetur ipsa quis incidunt, odio quam accusantium omnis rerum. Nam, iste, officiis! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium explicabo ex reiciendis sequi rerum atque quia inventore eligendi repellat provident, eius aspernatur voluptatibus autem dolor dolorem accusamus, quibusdam, sed quis.</p>
+    </div>
+    <dl class="dl-horizontal">
+      <dt>email</dt>
+      <dd>example@example.com</dd>
+      <dt>URL</dt>
+      <dd><a href="#">http://www.example.com</a></dd>
+    </dl>
+    <hr>
+    <p class="text-danger">[list of sessions from this speaker]</p>
+  </div>
+</div>
 ```
 
 */
@@ -39,7 +60,21 @@ category: TDH Justice Juvenile - Speaker
 ---
 
 ```html_example
-Teaser
+<div class="row">
+  <div class="col-sm-4">
+    <div class="thumbnail speaker clearfix">
+      <div class="media">
+        <a class="pull-left" href="#">
+          <img class="media-object" src="http://lorempixel.com/64/64/cats" style="width: 64px; height: 64px;">
+        </a>
+        <div class="media-body">
+          <h4 class="media-heading"><a href="#">John Doe</a></h4>
+          <p class="text-muted">Ingénieur informaticien</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 ```
 
 */

@@ -19,7 +19,7 @@ category: TDH Justice Juvenile - Session
 | Youtube | URL (Youtube module?) | ✘ | |
 | Session Day | Taxonomy | ✘ | ✘ |
 | Hours | Date | ✘ | ✘ |
-| Speaker | Entity | ✘ | ✘ |
+| Speaker | Entity (multiple) | ✘ | ✘ |
 
 **Field Collection:** ***Resources***
 
@@ -66,7 +66,7 @@ category: TDH Justice Juvenile - Session
       <p>Body. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti aliquid obcaecati at unde, possimus cumque eaque omnis delectus exercitationem. Adipisci voluptatem perferendis magni minus eaque facere modi ipsa quis iure. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum fuga necessitatibus, pariatur, eos ipsa suscipit vitae omnis reiciendis, soluta, cumque porro assumenda? Quaerat magnam, vel inventore molestias, voluptate saepe veritatis.</p>
       <p>Body. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti aliquid obcaecati at unde, possimus cumque eaque omnis delectus exercitationem. Adipisci voluptatem perferendis magni minus eaque facere modi ipsa quis iure. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum fuga necessitatibus, pariatur, eos ipsa suscipit vitae omnis reiciendis, soluta, cumque porro assumenda? Quaerat magnam, vel inventore molestias, voluptate saepe veritatis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus reprehenderit veritatis debitis! Aliquid nostrum quam eum possimus, quod, dolore sint omnis commodi ullam repellat nesciunt, non iusto nam nisi ipsum.</p>
       <div class="text-center">
-        <iframe width="420" height="315" src="//www.youtube.com/embed/O2ulyJuvU3Q" frameborder="0" allowfullscreen></iframe>
+        <iframe width="100%" height="400" src="//www.youtube.com/embed/O2ulyJuvU3Q" frameborder="0" allowfullscreen></iframe>
       </div>
     </div>
     <hr>
@@ -136,8 +136,38 @@ category: TDH Justice Juvenile - Session
 
 ```html_example
 <div class="row">
-  <div class="col-sm-6">
-    <div class="thumbnail">
+  <div class="col-sm-12">
+    <h2>Renforcer le système de justice juvénile</h2>
+    <h3 class="h4">26 janvier 2015</h3>
+  </div>
+</div>
+<div class="row">
+  <div class="col-sm-4">
+    <div class="thumbnail session">
+      <img src="http://lorempixel.com/800/200/cats" alt="Some cats image">
+      <div class="caption clearfix">
+        <h4>Discussion sur l'amélioration des lois et procédures en justice juvénile</h4>
+        <p><strong>14:00 - 16:00</strong> <span class="text-muted bullet">Table ronde d'experts <span class="bullet"><strong class="text-success">FR</strong> ES EN</span></span></p>
+        <p>Excerpt. Lorem ipsum dolor sit amet.</p>
+        <small class="pull-left"><em>with <a href="#">Oddy Osmani</a></em></small>
+        <a href="#" class="btn btn-primary pull-right" role="button">Read more</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-4">
+    <div class="thumbnail session">
+      <img src="http://lorempixel.com/800/200/cats" alt="Some cats image">
+      <div class="caption clearfix">
+        <h4>Discussion sur l'amélioration des lois et procédures en justice juvénile</h4>
+        <p><strong>14:00 - 16:00</strong> <span class="text-muted bullet">Table ronde d'experts <span class="bullet"><strong class="text-success">FR</strong> ES EN</span></span></p>
+        <p>Excerpt. Lorem ipsum dolor sit amet.</p>
+        <small class="pull-left"><em>with <a href="#">Oddy Osmani</a></em></small>
+        <a href="#" class="btn btn-primary pull-right" role="button">Read more</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-4">
+    <div class="thumbnail session">
       <img src="http://lorempixel.com/800/200/cats" alt="Some cats image">
       <div class="caption clearfix">
         <h4>Discussion sur l'amélioration des lois et procédures en justice juvénile</h4>
@@ -149,6 +179,7 @@ category: TDH Justice Juvenile - Session
     </div>
   </div>
 </div>
+<hr>
 ```
 
 */
