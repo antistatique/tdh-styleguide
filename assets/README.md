@@ -1,4 +1,87 @@
-# TDH Justice Juvénile Styleguide
+# TDH Justice Juvénile 2015 - Styleguide
+
+## Content Types
+
+1. **Basic Page**
+  - …
+  - Event Day -> Taxonomy
+  - Featured
+  - Image (for header)
+2. **Session**
+  - Title
+  - Body (+Excerpt)
+  - Featured
+  - Event Name
+  - Session type -> Taxonomy (Atelier, Présentation, Discussion, Séance plénière, Autres)
+  - Image
+  - Main Language -> Taxonomy
+  - Languages (multiple) -> Taxonomy
+  - Resources (multiple) (*files*) -> Field Collection
+    - Type
+    - Language
+    - Title
+  - Youtube
+  - Event Day —> Taxonomy
+  - Hours
+  - People —> Related Person (multiple)
+3. **Speaker**
+  - Title
+  - Body (+Excerpt) (Bio)
+  - Featured
+  - Name
+  - Job Title
+  - Image
+  - Email
+  - URL
+  - Language
+
+## Taxonomies
+
+1. **Event Day**
+  - Date
+  - Subtitle
+  - Body (+Excerpt)
+2. **Session type**
+  - Title
+  - Body (+Excerpt)
+  - Image
+3. **Language**
+  - Title
+
+## Sitemap
+
+- Homepage
+  - Page node - Featured
+  - View List all Event Days - Featured
+- Programme
+  - View List of all Event Days with their Sessions - Featured
+- Programme / $ Event Day 
+  - View List all $ Event Day Sessions - Featured
+  - View List all Event Days - Featured
+- Sessions
+  - View List all sessions - Featured
+- Session / $ Session Title
+  - Session node - Full
+  - View List all Event Days - Featured
+- Speakers
+  - View List all Speakers - Featured
+  - View List all Event Days - Featured
+- Speaker / $ Speaker Name
+  - Speaker node - Full
+  - View List all Event Days - Featured
+- Info
+  - Page node - Full
+  - View List all Event Days - Featured
+- About
+  - Page node - Full
+  - View List all Event Days - Featured
+
+## Menu
+ 
+- Homepage
+- Programme
+- Speakers
+- Info
 
 ```none_example
 <div class="row">
