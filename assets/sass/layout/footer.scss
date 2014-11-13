@@ -1,0 +1,27 @@
+/*doc
+---
+title: Footer
+name: a-footer
+category: Layout - Footer
+---
+
+```html_example
+<div class="footer-tdh">
+
+<div class="row">
+    <div class="col-sm-12">
+
+    </div>
+</div>
+
+
+</div>
+```
+
+*/
+.footer-tdh{
+  color: $gray-lighter;
+  background:$gray-dark url('../img/footer-bg.png');
+  padding-top: 30px;
+  padding-bottom: 40px
+}

@@ -2,12 +2,22 @@
 ---
 title: Header
 name: a-header
-category: Header
+category: Layout - Header
 ---
 
 ```html_example
 <div class="border-top-tdh">
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum velit impedit qui quisquam tempore eum sapiente quis corrupti nihil omnis cumque nesciunt quidem, repellendus atque iste ipsa nisi fuga ut?
+
+<div class="row">
+    <div class="col-sm-4">
+        <img src="img/tdh-logo-fr.png" alt="" class="isolate">
+    </div>
+    <div class="col-sm-8">
+
+    </div>
+</div>
+
+
 </div>
 ```
 
@@ -15,4 +25,41 @@ category: Header
 body, .border-top-tdh{
   background:transparent url('../img/header-border-orange.png') center top repeat-x;
   padding-top:30px;
+}
+.well-tdh{
+    background: #ccc url('../img/bg.jpg') center center;
+}
+
+/*doc
+---
+title: Spacer
+name: a-spacer
+category: Layout - Spacer
+---
+
+```html_example
+<div class="super-isolate">
+
+</div>
+<div class="isolate">
+
+</div>
+```
+
+*/
+.isolate{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.isolate-inner{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.super-isolate{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.super-isolate-inner{
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
