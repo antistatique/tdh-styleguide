@@ -1,6 +1,8 @@
 # TDH Justice Juvénile 2015 - Styleguide
 
-Static example pages available [here](pages/index.html).
+```none_example
+<a href="pages/index.html" class="btn btn-primary">Static example pages</a>
+```
 
 ## Content Types
 
@@ -21,7 +23,7 @@ Static example pages available [here](pages/index.html).
   - View List all Event Days - Featured
 - Programme
   - View List of all Event Days with their Sessions - Featured
-- Programme / $ Event Day 
+- Programme / $ Event Day
   - View List all $ Event Day Sessions - Featured
   - View List all Event Days - Featured
 - Sessions
@@ -43,7 +45,7 @@ Static example pages available [here](pages/index.html).
   - View List all Event Days - Featured
 
 ## Menu
- 
+
 - Homepage
 - Programme
 - Speakers
