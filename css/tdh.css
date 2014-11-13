@@ -2953,15 +2953,24 @@ category: TDH Justice Juvenile - Session
 | Youtube | URL (Youtube module?) | ✘ | |
 | Session Day | Taxonomy | ✘ | ✘ |
 | Hours | Date | ✘ | ✘ |
-| Speaker | Entity (multiple) | ✘ | ✘ |
+| Speakers | Field Collection (multiple) | ✘ | ✘ |
 
-**Field Collection:** ***Resources***
+**Field Collection:**
+
+***Resources***
 
 | Field | Type |
 |-------|------|
 | Title | Text |
 | Type | List (Radio) |
 | Language | List (Radio) |
+
+***Speakers***
+
+| Field | Type |
+|-------|------|
+| Speaker | Entity |
+| Description | List (Radio) |
 
 Session types:
  - Atelier - Présentation - Discussion - Séance plénière - Autres (Break, Lunch, ...)
@@ -3028,6 +3037,7 @@ category: TDH Justice Juvenile - Speaker
 | Email | Text | ✘ | |
 | URL | Text | ✘ | |
 | Language | Taxonomy (Checkbox) | ✘ | |
+| CV | File (PDF) | ✘ | |
 
 */
 /*doc
