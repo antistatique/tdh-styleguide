@@ -1,0 +1,37 @@
+{% extends "layout.twig" %}
+
+{% block pagetitle %}Session page example{% endblock %}
+
+{% block page %}
+    <div class="row">
+      <div class="col-sm-4">
+        <img class="img-responsive" src="http://lorempixel.com/800/800/cats" alt="Some cats image">
+      </div>
+      <div class="col-sm-8">
+        <h1 class="media-heading">Name of the speaker <small></small></h1>
+        <p class="text-muted">Job Title</p>
+        <div class="bio">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam deserunt nisi quae sed tenetur, nostrum similique ad vero? Praesentium amet, commodi ipsum a id explicabo! Amet saepe nisi alias ipsam? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis quibusdam obcaecati quam nam necessitatibus vitae nesciunt repellendus quae. Tenetur ipsa quis incidunt, odio quam accusantium omnis rerum. Nam, iste, officiis!</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam deserunt nisi quae sed tenetur, nostrum similique ad vero? Praesentium amet, commodi ipsum a id explicabo! Amet saepe nisi alias ipsam? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis quibusdam obcaecati quam nam necessitatibus vitae nesciunt repellendus quae. Tenetur ipsa quis incidunt, odio quam accusantium omnis rerum. Nam, iste, officiis! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium explicabo ex reiciendis sequi rerum atque quia inventore eligendi repellat provident, eius aspernatur voluptatibus autem dolor dolorem accusamus, quibusdam, sed quis.</p>
+        </div>
+
+        <div class="list-group">
+          <a href="#" class="list-group-item">
+            <h6 class="list-group-item-heading">Email</h6>
+            <p class="list-group-item-text">example@example.com</p>
+          </a>
+          <a href="#" class="list-group-item">
+            <h6 class="list-group-item-heading">Site internet</h6>
+            <p class="list-group-item-text">http://example.com</p>
+          </a>
+          <a href="#" class="list-group-item">
+            <h6 class="list-group-item-heading">LinkedIn Profile</h6>
+            <p class="list-group-item-text">http://linkedin.com/test</p>
+          </a>
+        </div>
+
+        <hr>
+        <p class="text-danger">[list of sessions from this speaker]</p>
+      </div>
+    </div>
+{% endblock %}
