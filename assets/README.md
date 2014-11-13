@@ -3,51 +3,14 @@
 ## Content Types
 
 1. [**Basic Page**](tdh_justice_juvenile_-_basic_page.html)
-  - …
-  - Event Day -> Taxonomy
-  - Featured
-  - Image (for header)
 2. [**Session**](tdh_justice_juvenile_-_session.html)
-  - Title
-  - Body (+Excerpt)
-  - Featured
-  - Event Name
-  - Session type -> Taxonomy (Atelier, Présentation, Discussion, Séance plénière, Autres)
-  - Image
-  - Main Language -> Taxonomy
-  - Languages (multiple) -> Taxonomy
-  - Resources (multiple) (*files*) -> Field Collection
-    - Type
-    - Language
-    - Title
-  - Youtube
-  - Event Day —> Taxonomy
-  - Hours
-  - People —> Related Person (multiple)
 3. [**Speaker**](tdh_justice_juvenile_-_speaker.html)
-  - Title
-  - Body (+Excerpt) (Bio)
-  - Featured
-  - Name
-  - Job Title
-  - Image
-  - Email
-  - URL
-  - Language
-  - CV
 
-## **[Taxonomies](tdh_justice_juvenile_-_taxonomies.html)**
+**[Taxonomies](tdh_justice_juvenile_-_taxonomies.html)**
 
 1. **Event Day**
-  - Date
-  - Subtitle
-  - Body (+Excerpt)
 2. **Session type**
-  - Title
-  - Body (+Excerpt)
-  - Image
 3. **Language**
-  - Title
 
 ## Sitemap
 
