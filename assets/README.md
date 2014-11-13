@@ -2,12 +2,12 @@
 
 ## Content Types
 
-1. **Basic Page**
+1. [**Basic Page**](tdh_justice_juvenile_-_basic_page.html)
   - …
   - Event Day -> Taxonomy
   - Featured
   - Image (for header)
-2. **Session**
+2. [**Session**](tdh_justice_juvenile_-_session.html)
   - Title
   - Body (+Excerpt)
   - Featured
@@ -24,7 +24,7 @@
   - Event Day —> Taxonomy
   - Hours
   - People —> Related Person (multiple)
-3. **Speaker**
+3. [**Speaker**](tdh_justice_juvenile_-_speaker.html)
   - Title
   - Body (+Excerpt) (Bio)
   - Featured
@@ -34,8 +34,9 @@
   - Email
   - URL
   - Language
+  - CV
 
-## Taxonomies
+## **[Taxonomies](tdh_justice_juvenile_-_taxonomies.html)**
 
 1. **Event Day**
   - Date
