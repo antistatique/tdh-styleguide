@@ -16,6 +16,7 @@ category: TDH Justice Juvenile - Session
 | Main Language | Taxonomy | ✘ | ✘ |
 | Languages | Taxonomy (multiple) | ✘ | ✘ |
 | Resources | Field Collection (multiple) | ✘ | |
+| Resources Links | Field Collection (multiple) | ✘ | |
 | Youtube | URL (Youtube module?) | ✘ | |
 | Session Day | Taxonomy | ✘ | ✘ |
 | Hours | Date | ✘ | ✘ |
@@ -28,6 +29,16 @@ category: TDH Justice Juvenile - Session
 | Field | Type |
 |-------|------|
 | Title | Text |
+| File | File |
+| Type | List (Radio) |
+| Language | List (Radio) |
+
+***Resources Links***
+
+| Field | Type |
+|-------|------|
+| Title | Text |
+| URL | Text |
 | Type | List (Radio) |
 | Language | List (Radio) |
 
@@ -112,6 +123,23 @@ category: TDH Justice Juvenile - Session
           </div>
         </li>
       </ul>
+    </div>
+    <div class="resources">
+      <h2>Resources Links</h2>
+      <ul class="media-list">
+        <li class="media">
+          <!-- Ajouter des pictos selon le type de fichier? -->
+          <div class="media-body">
+            <h4 class="media-heading"><a href="#">Media heading with a title a little longer</a> <small class="text-success">EN</small></h4>
+          </div>
+        </li>
+        <li class="media">
+          <div class="media-body">
+            <h4 class="media-heading"><a href="#">Media heading with a title a little longer</a> <small class="text-success">EN</small></h4>
+          </div>
+        </li>
+      </ul>
+    </div>
   </article>
 </div>
 ```
