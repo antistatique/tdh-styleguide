@@ -1,5 +1,7 @@
 # TDH Justice Juvénile 2015 - Styleguide
 
+Static example pages available [here](pages/index.html).
+
 ## Content Types
 
 1. [**Basic Page**](tdh_justice_juvenile_-_basic_page.html)
