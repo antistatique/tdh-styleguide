@@ -74,10 +74,7 @@ category: TDH Justice Juvenile - Session
 
 ```html_example
 <div class="row">
-  <div class="col-md-3">
-    <p class="text-danger">[speaker teaser display]</p>
-  </div>
-  <article class="col-md-9 session">
+  <article class="col-md-12 session">
     <div>
       <img class="img-responsive" src="http://lorempixel.com/600/400/cats" alt="Some cats image">
     </div>
@@ -91,6 +88,9 @@ category: TDH Justice Juvenile - Session
 
       <p>Body. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti aliquid obcaecati at unde, possimus cumque eaque omnis delectus exercitationem. Adipisci voluptatem perferendis magni minus eaque facere modi ipsa quis iure. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum fuga necessitatibus, pariatur, eos ipsa suscipit vitae omnis reiciendis, soluta, cumque porro assumenda? Quaerat magnam, vel inventore molestias, voluptate saepe veritatis.</p>
       <p>Body. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti aliquid obcaecati at unde, possimus cumque eaque omnis delectus exercitationem. Adipisci voluptatem perferendis magni minus eaque facere modi ipsa quis iure. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum fuga necessitatibus, pariatur, eos ipsa suscipit vitae omnis reiciendis, soluta, cumque porro assumenda? Quaerat magnam, vel inventore molestias, voluptate saepe veritatis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus reprehenderit veritatis debitis! Aliquid nostrum quam eum possimus, quod, dolore sint omnis commodi ullam repellat nesciunt, non iusto nam nisi ipsum.</p>
+
+      <p class="text-danger">[speaker teaser display]</p>
+
       <div class="text-center">
         <iframe width="100%" height="400" src="//www.youtube.com/embed/O2ulyJuvU3Q" frameborder="0" allowfullscreen></iframe>
       </div>
@@ -103,46 +103,37 @@ category: TDH Justice Juvenile - Session
           <!-- Ajouter des pictos selon le type de fichier? -->
           <span class="pull-left media-object glyphicon glyphicon-file"></span>
           <div class="media-body">
-            <h4 class="media-heading">Media heading with a title a little longer <small class="text-success">EN</small></h4>
-            <p><a href="#" class="btn btn-xs btn-primary">Download</a></p>
+            <p class="media-heading"><strong>Media heading with a title a little longer <a href="#" class="btn btn-xs btn-primary">Download</a></strong> <small class="text-success">EN</small></p>
           </div>
         </li>
         <li class="media">
           <span class="pull-left media-object glyphicon glyphicon-film"></span>
           <div class="media-body">
-            <h4 class="media-heading">Media heading <small class="text-success">EN</small></h4>
-            <p><a href="#" class="btn btn-xs btn-primary">Download</a></p>
+            <p class="media-heading"><strong>Media heading title <a href="#" class="btn btn-xs btn-primary">Download</a></strong> <small class="text-success">EN</small></p>
           </div>
         </li>
         <li class="media">
           <span class="pull-left media-object glyphicon glyphicon-picture"></span>
           <div class="media-body">
-            <h4 class="media-heading">Media heading <small class="text-success">EN</small></h4>
-            <p><a href="#" class="btn btn-xs btn-primary">Download</a></p>
+            <p class="media-heading"><strong>Media heading <a href="#" class="btn btn-xs btn-primary">Download</a></strong> <small class="text-success">EN</small></p>
           </div>
         </li>
         <li class="media">
           <span class="pull-left media-object glyphicon glyphicon-bookmark"></span>
           <div class="media-body">
-            <h4 class="media-heading">Media heading with a title a little longer <small class="text-success">EN</small></h4>
-            <p><a href="#" class="btn btn-xs btn-primary">Download</a></p>
+            <p class="media-heading"><strong>Media heading with a title a little longer than usual <a href="#" class="btn btn-xs btn-primary">Download</a></strong> <small class="text-success">EN</small></p>
           </div>
         </li>
       </ul>
     </div>
     <div class="resources">
       <h2>Resources Links</h2>
-      <ul class="media-list">
-        <li class="media">
-          <!-- Ajouter des pictos selon le type de fichier? -->
-          <div class="media-body">
-            <h4 class="media-heading"><a href="#">Media heading with a title a little longer</a> <small class="text-success">EN</small></h4>
-          </div>
+      <ul>
+        <li>
+            <a href="#">Media heading with a title a little longer</a> <small class="text-success">EN</small>
         </li>
-        <li class="media">
-          <div class="media-body">
-            <h4 class="media-heading"><a href="#">Media heading with a title a little longer</a> <small class="text-success">EN</small></h4>
-          </div>
+        <li>
+          <a href="#">Media heading with a title a little longer</a> <small class="text-success">EN</small>
         </li>
       </ul>
     </div>
@@ -156,12 +147,19 @@ category: TDH Justice Juvenile - Session
   h2 {
     margin-bottom: 15px;
   }
+  .media-list {
+    padding-left: 20px;
+  }
   .media {
     &:first-child {
       margin-top: 15px;
     }
+    & > .pull-left {
+      padding-right: 5px;
+    }
     .glyphicon {
-      font-size: 45px;
+      font-size: 16px;
+      top: 3px;
     }
   }
 }

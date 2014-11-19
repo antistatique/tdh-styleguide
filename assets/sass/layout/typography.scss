@@ -298,3 +298,7 @@ category: Layout - Typography
 ```
 
 */
+
+hr {
+  border-top: 1px solid lighten($gray-base, 50%);
+}
