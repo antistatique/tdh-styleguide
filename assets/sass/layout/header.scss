@@ -63,3 +63,7 @@ category: Layout - Spacer
     padding-top: 30px;
     padding-bottom: 30px;
 }
+
+.region-sub-nav {
+    @extend .pull-right;
+}

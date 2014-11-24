@@ -37,7 +37,11 @@ category: Components - Button Groups
 
 */
 
-
+.btn-primary.active {
+  background: $brand-primary;
+  border-color: $btn-primary-border;
+  box-shadow: none;
+}
 
 /*doc
 ---

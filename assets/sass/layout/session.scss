@@ -161,7 +161,8 @@ category: TDH Justice Juvenile - Session
   .media {
     margin-top: 0;
     margin-bottom: 15px;
-    & > .pull-left {
+    position: relative;
+    & .pull-left.glyphicon {
       padding-right: 5px;
     }
     .glyphicon {

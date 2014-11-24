@@ -178,3 +178,15 @@ category: Components - Navbar
 </nav>
 ```
 */
+
+.nav-pills {
+  & > li {
+    a {
+      background: lighten($gray-base, 60%);
+      color: #fff;
+      &:hover {
+        background: lighten($gray-base, 10%);
+      }
+    }
+  }
+}

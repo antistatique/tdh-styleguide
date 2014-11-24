@@ -1,0 +1,7 @@
+.node-session.node-teaser {
+  .field-speaker:not(:last-child) {
+    &:after {
+      content: ', ';
+    }
+  }
+}

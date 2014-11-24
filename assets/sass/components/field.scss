@@ -1,0 +1,50 @@
+.field-collection-view:not(.view-mode-thumbnail) {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.node-type-session  {
+  .field-collection-container {
+    @include make-row();
+  }
+}
+
+.field-collection-container {
+  border: none;
+}
+
+.field-collection-container ul.action-links-field-collection-add,
+.field-collection-view ul.field-collection-view-links {
+  float: none;
+  margin: 0;
+  position: absolute;
+  right: 0;
+  li {
+    list-style-type: none;
+    a {
+      @extend .btn;
+      @extend .btn-xs;
+      @extend .btn-default;
+    }
+  }
+}
+
+.field-collection-container ul.action-links-field-collection-add {
+  right: auto;
+  left: 0;
+  li a {
+    @extend .btn-success;
+  }
+}
+
+.view-mode-thumbnail {
+  padding: auto;
+  margin: auto;
+  margin-bottom: 30px;
+  @extend .thumbnail;
+}
+
+.field-speakers.teaser {
+  display: inline-block;
+}
