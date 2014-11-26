@@ -72,7 +72,7 @@ $line-height-base:        1.428571429 !default; // 20/14
 $line-height-computed:    floor(($font-size-base * $line-height-base)) !default; // ~20px
 
 //** By default, this inherits from the `<body>`.
-$headings-font-family:    'Oswald', Impact, Arial black !default;
+$headings-font-family:    'Oswald', Impact, Arial, sans-serif !default;
 $headings-font-weight:    700 !default;
 $headings-line-height:    1.25 !default;
 $headings-color:          #333 !default;
