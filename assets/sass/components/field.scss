@@ -47,4 +47,15 @@
 
 .field-speakers.teaser {
   display: inline-block;
+  position: relative;
+  &:not(:last-child) {
+    margin-right: 4px;
+    &:after {
+      content: ',';
+      display: inline;
+      position: absolute;
+      right: -4px;
+      top: 0;
+    }
+  }
 }
