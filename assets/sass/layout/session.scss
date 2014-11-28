@@ -246,3 +246,7 @@ category: TDH Justice Juvenile - Session
     margin-top: 2px;
   }
 }
+
+.view-session-days .views-row-first {
+  @include make-sm-column-offset(1);
+}
