@@ -152,7 +152,7 @@ category: TDH Justice Juvenile - Session
     margin-bottom: 15px;
   }
   .media-list {
-    padding-left: 20px;
+    padding-left: 10px;
     @media only screen and (min-width: $screen-md-min) {
       column-count: 2;
       column-gap: $grid-gutter-width;
@@ -170,6 +170,9 @@ category: TDH Justice Juvenile - Session
       font-size: 16px;
       top: 3px;
     }
+  }
+  .field-resources-links {
+    padding-left: 20px;
   }
 }
 
