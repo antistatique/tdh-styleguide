@@ -156,7 +156,6 @@ gulp.task('serve', ['styles', 'scripts', 'twig'], function () {
     },
     open: false
   });
-  gulp.watch(['styleguide/*.html'], reload);
   gulp.watch(['assets/img/**/*'], function() {
     runSequence('img', 'styleguide', reload);
   });
