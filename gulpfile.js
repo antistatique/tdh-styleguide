@@ -105,7 +105,7 @@ gulp.task('styles', function() {
   if (argv.production) { console.log('[styles] Processing styles for production env.' ); }
   else { console.log('[styles] Processing styles for dev env. No minifying here, for sourcemaps!') }
   return gulp.src('assets/sass/tdh.scss')
-    .pipe($.rubySass({style: 'compact'}))
+    .pipe($.rubySass({style: 'compact', container: 'jj2015'}))
       .on('error', $.notify.onError(function (error) {
          console.log(error.message);
          if (!argv.production) {
